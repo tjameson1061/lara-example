@@ -1,32 +1,44 @@
 Hello All!
 
-The purpose of this Laravel Demo Project is to demonstrate my skills of using various intermediate and advanced concepts of the framework. I am using Laravel version 6.
+The purpose of this Laravel Demo Project is to demonstrate my skills of using various intermediate and advanced concepts of the framework. 
+I am using Laravel version 7.4.0
 
-(My website: https://www.olivervoros.com for more info about me...)
+More info about me:
+My website: https://www.olivervoros.com 
+LinkedIN: https://www.linkedin.com/in/olivervoros
+
+Initial Project Setup:
+
+run composer install
+run npm install
+CREATE DATABASE {database_name}
+Edit your .env file to have a database connection using the newly created DB
 
 And now let's see the examples:
 
-1, Facades
+1, Facades -> git checkout facades
 
 Facade is an OOP design pattern, it is an object that serves as a front-facing interface masking more complex underlying or structural code. Facades are an important concept of Laravel. 
 I have developed a WeatherForecast Facade, which demonstrated how Facades work in Laravel.
-You can access the example by issuing "git checkout facades".
 
-2, Eloquent Relationships
+2, Eloquent Relationships -> git checkout eloquent-relationships
 
-This branch demonstrates the various Eloquent relationships.
-
-git checkout eloquent-relationships
+This branch demonstrates all the possible Eloquent relationships.
 
 You will need the following steps to set up the database:
 
-1, Create a database
-2, Edit your .env file to have a database connection using the newly created DB
-3, Run the migration file: php artisan migration
-4, Seed the Database in order to have some data: php artisan db:seed
+    1, php artisan migrate
+    2, php artisan db:seed
 
-Relationships modeled:
-one-to-one -> Airline and Base
-one-to-many -> Airline and Aircrafts
-many-to-many -> Flight and Pilots
-polymorphic-many-to-many Schedule, Pilots and Cabincrew
+You can see all the modeled relationships used in the AirlineController.
+
+3, Service Container and Route-Model-Binding -> git checkout service-container
+
+This branch shows the way to add a service to the container, and also various ways of route model bindings.
+
+    1, php artisan migrate
+    2, php artisan db:seed
+
+4, Collections git checkout collections
+
+There are tons of functions/methods you can use on "Laravel collections". I will examine and try a bulk of these functions...
