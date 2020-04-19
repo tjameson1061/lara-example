@@ -1,25 +1,26 @@
-#Hello All!
+<h1>Hello All!</h1>
 
 ![Alt Text](https://media.giphy.com/media/pxwlYSM8PfY5y/giphy.gif)
+
+My name is Oliver, I am a senior web developer with 9 years experience.   
+You can find out more about me:   
+My website: https://www.olivervoros.com    
+My LinkedIN profile: https://www.linkedin.com/in/olivervoros 
 
 I have created this Github Account to demonstrate my skills of using various intermediate and advanced concepts of the Laravel framework.
 My Setup: 
 PHP 7.4.2, Laravel version 7.4.0, Composer, MySQL, Ubuntu, Apache
-
-You can read more about me:   
-My website: https://www.olivervoros.com    
-My LinkedIN profile: https://www.linkedin.com/in/olivervoros   
-
-Initial Project Setup:
+  
+Initial Project Setup:    
 Run composer install  
 Run npm install  
 CREATE DATABASE {database_name}  
 Edit your .env file to have a database connection using the newly created DB  
 
-Then select the required branch and issue git checkout {branch}   
-After you checked out the branch, run composer dump-autoload   
-Then php artisan migrate::refresh --seed   
-Run the server by adding php artisan serve   
+Then select the required branch by typing: git checkout {branch}   
+After you checked out the branch, run: composer dump-autoload   
+Then run: php artisan migrate::refresh --seed   
+And finally, run the server by: php artisan serve   
 
 <u><b>And now let's see the examples:</b></u>   
 
@@ -57,19 +58,35 @@ There are loads of methods you can use on "Laravel collections". I try a number 
 View Composers are a great way to share data between various views.
 Implementation: see AppServiceProvider boot() method
 
-6, <a name="repo">Repository Pattern</a>
+6, <a name="repo">Repository Pattern</a>    
+Repository pattern is a kind of container where data access logic is stored. 
+It hides the details of data access logic from business logic. 
+In other words, we allow business logic to access the data object without having knowledge of underlying data access architecture.
 
-7, <a name="mw">Middlewares</a>
+7, <a name="mw">Middlewares</a>     
+By using middlewares you can modify or filter the incoming HTTP Request.    
+In our implementation we apply an IP address checking middleware.
+See: IpFilterMiddleware and IpFilterRouteMiddleware
 
-8, <a name="sd">Soft Delete</a>
+8, <a name="sd">Soft Delete</a>   
+As the Laravel documentation says, when models are soft deleted, they are not actually removed from your database. 
+Instead, a deleted_at attribute is set on the model and inserted into the database. 
+If a model has a non-null deleted_at value, the model has been soft deleted.
 
-9, <a name="aam">Accessors and Mutators</a>
+9, <a name="aam">Accessors and Mutators</a>    
+Accessors and mutators allow you to format Eloquent attribute values when you retrieve or set them on model instances.
 
-10, <a name="pipe">Pipelines</a>
+10, <a name="pipe">Pipelines</a>    
+Basically, using laravel pipelines you can pass an object between several classes in a fluid way 
+to perform any type of task and finally return the resulting value once all the “tasks” have been executed.
 
-11, <a name="noty">Notifications</a>
+11, <a name="noty">Notifications</a>   
+Laravel provides support for sending notifications across a variety of delivery channels, including mail, SMS (via Nexmo), and Slack. 
+Notifications may also be stored in a database so they may be displayed in your web interface.
 
-12, <a name="macros">Macros</a>
+12, <a name="macros">Macros</a>     
+Laravel Macro is a way to add some missing functionality to Laravel's internal component with a piece of code which doesn't exist in the Laravel class. 
+To implement a Laravel Macro, Laravel provides a PHP trait called Macroable.
 
 13, <a name="eaq">Events and Queues</a>    
 A simple example of Events, Listeners and Queues.   
