@@ -80,15 +80,15 @@ If a model has a non-null deleted_at value, the model has been soft deleted.
 9, <a name="aam">Accessors and Mutators</a> -> git checkout "mutators"       
 Accessors and mutators allow you to format Eloquent attribute values when you retrieve or set them on model instances.
 
-10, <a name="pipe">Pipelines</a> -> git checkout "pipelines"
+10, <a name="pipe">Pipelines</a> -> git checkout "pipelines"       
 Basically, using laravel pipelines you can pass an object between several classes in a fluid way 
 to perform any type of task and finally return the resulting value once all the “tasks” have been executed.
 
-11, <a name="noty">Notifications</a> -> git checkout "notifications"
+11, <a name="noty">Notifications</a> -> git checkout "notifications"     
 Laravel provides support for sending notifications across a variety of delivery channels, including mail, SMS (via Nexmo), and Slack. 
 Notifications may also be stored in a database so they may be displayed in your web interface.
 
-12, <a name="macros">Macros</a> -> git checkout "macros"
+12, <a name="macros">Macros</a> -> git checkout "macros"   
 Laravel Macro is a way to add some missing functionality to Laravel's internal component with a piece of code which doesn't exist in the Laravel class. 
 To implement a Laravel Macro, Laravel provides a PHP trait called Macroable.
 
