@@ -39,6 +39,7 @@ And finally, run the server by: php artisan serve
 13, <a href="#eaq">Events, Listeners and Queues</a>  
 14, <a href="#lat">Localization and Translation</a>  
 15, <a href="#lel">Lazy or Eager Loading and the N+1 problem</a>  
+16, <a href="#cbd">Custom Blade Directive</a>  
 
 1, <a name="sc">Service Container and Route-Model-Binding</a> -> git checkout "service-container"         
 As the Laravel documentation says, the Laravel service container is a powerful tool for managing class dependencies and performing dependency injection.    
@@ -108,3 +109,8 @@ This branch explains the N+1 problem, and shows a way to optimise the given data
 I suggest, that you set up telescope in order to see the list of SQL queries.
 More here: https://laravel.com/docs/7.x/telescope
 For the implementation check: ArticleController
+
+16, <a name="cbd">Custom Blade Directive</a> -> git checkout "custom-blade-directive"
+A very simple example of creating a custom blade directive...
+
+ 
