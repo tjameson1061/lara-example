@@ -19,7 +19,7 @@ Edit your .env file to have a database connection using the newly created DB
 
 Then select the required branch by typing: git checkout {branch}   
 After you checked out the branch, run: composer dump-autoload   
-Then run: php artisan migrate::refresh --seed   
+Then run: php artisan migrate::fresh --seed   
 And finally, run the server by: php artisan serve   
 
 <u><b>And now let's see the examples:</b></u>   
@@ -41,6 +41,7 @@ And finally, run the server by: php artisan serve
 15, <a href="#lel">Lazy or Eager Loading and the N+1 problem</a>  
 16, <a href="#cbd">Custom Blade Directive</a>  
 17, <a href="#siro">Signed Routes</a>  
+18, <a href="#auth">Authorization</a>  
 
 1, <a name="sc">Service Container and Route-Model-Binding</a> -> git checkout "service-container"         
 As the Laravel documentation says, the Laravel service container is a powerful tool for managing class dependencies and performing dependency injection.    
@@ -116,4 +117,7 @@ A very simple example of creating a custom blade directive...
 
 17, <a name="siro">Signed Routes</a> -> git checkout "signed-routes"    
 A straightforward example of using signed routes. This is mostly used for account activations, or when you want to protect a route from users who do not know the URL signature.
+
+18, <a name="auth">Authorization</a> -> git checkout "authorization"     
+Example code which includes various implementations of Laravel Authorization, such as Gates and Policies
  
