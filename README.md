@@ -43,6 +43,7 @@ And finally, run the server by: php artisan serve
 17, <a href="#siro">Signed Routes</a>  
 18, <a href="#auth">Authorization</a>      
 19, <a href="#bc">Broadcasting</a>  
+20, <a href="#test">Unit Testing, Integration Testing, Browser Testing</a>
 
 1, <a name="sc">Service Container and Route-Model-Binding</a> -> git checkout "service-container"         
 As the Laravel documentation says, the Laravel service container is a powerful tool for managing class dependencies and performing dependency injection.    
@@ -139,12 +140,8 @@ Implementation: https://github.com/olivervoros/laravel-demo-project/compare/auth
 An example implementation of using Laravel's broadcasting feature.       
 Implementation: https://github.com/olivervoros/laravel-demo-project/compare/broadcasting
 
-Steps to set up broadcasting:
- 1, I have used Redis as a broadcaster, so you will need to install predis: composer require predis/predis    
-2, Change your .env file: BROADCAST_DRIVER=redis    
-3, Install socket.io: npm install --save socket.io-client    
-4, Add the CSRF token to the html template: <meta name="csrf-token" content="{{ csrf_token() }}">    
-5, Install Laravel Echo Server: npm install -g laravel-echo-server    
-6, Run Laravel Ecco Server: laravel-echo-server init    
-7, Run npm: npm install, npm install laravel-echo, npm install socket.io-client     
-8, npm run dev
+20, <a name="test">Testing</a>     
+Few examples covering different software testing methods:      
+- Unit Testing with Prophecy: https://github.com/olivervoros/laravel-demo-project/compare/testing-with-prophecy
+- Unit Testing and Integration Testing: https://github.com/olivervoros/laravel-demo-project/compare/testing
+- Browser Testing with Dusk: https://github.com/olivervoros/laravel-demo-project/compare/browser-testing-with-dusk
