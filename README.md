@@ -43,7 +43,7 @@ And finally, run the server by: php artisan serve
 17, <a href="#siro">Signed Routes</a>  
 18, <a href="#auth">Authorization</a>      
 19, <a href="#bc">Broadcasting</a>  
-20, <a href="#test">Unit Testing, Integration Testing, Browser Testing</a>
+20, <a href="#test">Unit Testing, Integration Testing, Browser Testing</a>      
 21, <a href="#vue">Mini Project: Laravel API with VueJS</a>
 
 1, <a name="sc">Service Container and Route-Model-Binding</a> -> git checkout "service-container"         
