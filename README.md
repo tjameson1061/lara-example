@@ -141,12 +141,12 @@ Implementation: https://github.com/olivervoros/laravel-demo-project/compare/auth
 An example implementation of using Laravel's broadcasting feature.       
 Implementation: https://github.com/olivervoros/laravel-demo-project/compare/broadcasting
 
-20, <a name="test">Testing</a>     
+20, <a name="test">Testing</a>            
 Few examples covering different software testing methods:      
 - Unit Testing with Prophecy: https://github.com/olivervoros/laravel-demo-project/compare/testing-with-prophecy
 - Unit Testing and Integration Testing: https://github.com/olivervoros/laravel-demo-project/compare/testing
 - Browser Testing with Dusk: https://github.com/olivervoros/laravel-demo-project/compare/browser-testing-with-dusk
 
-21, <a nem="vue">Mini Project: Laravel API with VueJS</a> -> git checkout "laravel-api-with-vuejs"
+21, <a name="vue">Mini Project: Laravel API with VueJS</a> -> git checkout "laravel-api-with-vuejs"       
 Laravel API with Passport Auth and HTTP testing on the backend and VueJS + Vuex on the frontend
 Implementation: https://github.com/olivervoros/laravel-demo-project/compare/laravel-api-with-vuejs
