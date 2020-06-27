@@ -44,6 +44,7 @@ And finally, run the server by: php artisan serve
 18, <a href="#auth">Authorization</a>      
 19, <a href="#bc">Broadcasting</a>  
 20, <a href="#test">Unit Testing, Integration Testing, Browser Testing</a>
+21, <a href="#vue">Mini Project: Laravel API with VueJS</a>
 
 1, <a name="sc">Service Container and Route-Model-Binding</a> -> git checkout "service-container"         
 As the Laravel documentation says, the Laravel service container is a powerful tool for managing class dependencies and performing dependency injection.    
@@ -145,3 +146,7 @@ Few examples covering different software testing methods:
 - Unit Testing with Prophecy: https://github.com/olivervoros/laravel-demo-project/compare/testing-with-prophecy
 - Unit Testing and Integration Testing: https://github.com/olivervoros/laravel-demo-project/compare/testing
 - Browser Testing with Dusk: https://github.com/olivervoros/laravel-demo-project/compare/browser-testing-with-dusk
+
+21, <a nem="vue">Mini Project: Laravel API with VueJS</a> -> git checkout "laravel-api-with-vuejs"
+Laravel API with Passport Auth and HTTP testing on the backend and VueJS + Vuex on the frontend
+Implementation: https://github.com/olivervoros/laravel-demo-project/compare/laravel-api-with-vuejs
