@@ -3,10 +3,10 @@
 ![Alt Text](https://media.giphy.com/media/pxwlYSM8PfY5y/giphy.gif)
 
 My name is Oliver, I am a senior web developer with nine years experience.   
-I have created this Github Account to demonstrate my skills of using 
+I have created this Github Account to demonstrate my skills of using       
 various intermediate and advanced concepts of the Laravel framework.
 
-My Setup: 
+Tech Stacks: 
 PHP 7.4.2, Laravel version 7.4.0, Composer, MySQL, Ubuntu, Apache
 
 <u><b>And now let's see the examples:</b></u>   
@@ -63,37 +63,37 @@ It hides the details of data access logic from business logic.
 In other words, we allow business logic to access the data object without having knowledge of underlying data access architecture.     
 Implementation: https://github.com/olivervoros/laravel-demo-project/compare/repository-pattern      
 
-7, <a name="mw">Middlewares</a> 
+7, <a name="mw">Middlewares</a>      
 By using middlewares you can modify or filter the incoming HTTP Request.    
 In our implementation we apply an IP address checking middleware.     
 Implementation: https://github.com/olivervoros/laravel-demo-project/compare/middlewares     
 
-8, <a name="sd">Soft Delete</a>
+8, <a name="sd">Soft Delete</a>     
 As the Laravel documentation says, when models are soft deleted, they are not actually removed from your database. 
 Instead, a deleted_at attribute is set on the model and inserted into the database. 
 If a model has a non-null deleted_at value, the model has been soft deleted.      
 Implementation: https://github.com/olivervoros/laravel-demo-project/compare/soft-delete     
 
-9, <a name="aam">Accessors and Mutators</a>   
+9, <a name="aam">Accessors and Mutators</a>         
 Accessors and mutators allow you to format Eloquent attribute values when you retrieve or set them on model instances.    
 Implementation: https://github.com/olivervoros/laravel-demo-project/compare/mutators     
 
-10, <a name="pipe">Pipelines</a>      
+10, <a name="pipe">Pipelines</a>            
 Basically, using laravel pipelines you can pass an object between several classes in a fluid way 
 to perform any type of task and finally return the resulting value once all the “tasks” have been executed.     
 Implementation: https://github.com/olivervoros/laravel-demo-project/compare/pipelines    
 
-11, <a name="noty">Notifications</a>   
+11, <a name="noty">Notifications</a>         
 Laravel provides support for sending notifications across a variety of delivery channels, including mail, SMS (via Nexmo), and Slack. 
 Notifications may also be stored in a database, so they may be displayed in your web interface.     
 Implementation: https://github.com/olivervoros/laravel-demo-project/compare/notifications 
 
-12, <a name="macros">Macros</a>
+12, <a name="macros">Macros</a>      
 Laravel Macro is a way to add some missing functionality to Laravel's internal component with a piece of code which doesn't exist in the Laravel class. 
 To implement a Laravel Macro, Laravel provides a PHP trait called Macroable.     
 Implementation: https://github.com/olivervoros/laravel-demo-project/compare/macros
 
-13, <a name="eaq">Events, Listeners and Queues</a>    
+13, <a name="eaq">Events, Listeners and Queues</a>          
 A simple example of Events, Listeners and Queues.   
 The implementation: Within the RegisterController we register a user, and if the user wins we trigger 
 the RegisteredUserWonEvent. In the EventServiceProvider class we add two listeners to the RegisteredUserWonEvent.
@@ -101,39 +101,39 @@ Both listener's handle method is triggered, and as the listener classes implemen
 the listener tasks are added to the database driven queue. (see: .ENV QUEUE_CONNECTION=database)         
 Implementation: https://github.com/olivervoros/laravel-demo-project/compare/events-and-queues 
 
-14, <a name="lat">Localization and Translation</a>    
+14, <a name="lat">Localization and Translation</a>         
 A simple implementation of using multiple languages within a Laravel application.
 For the implementation check: the lang directory and the welcome.blade.php view file.      
 Implementation: https://github.com/olivervoros/laravel-demo-project/compare/localization-translation
 
-15, <a name="lel">Lazy or Eager Loading and the N+1 Problem</a>   
+15, <a name="lel">Lazy or Eager Loading and the N+1 Problem</a>       
 This branch explains the N+1 problem, and shows a way to optimise the given database queries.
 I suggest, that you set up telescope in order to see the list of SQL queries.
 More here: https://laravel.com/docs/7.x/telescope       
 Implementation: https://github.com/olivervoros/laravel-demo-project/compare/lazy-or-eager-loading
 
-16, <a name="cbd">Custom Blade Directive</a>
+16, <a name="cbd">Custom Blade Directive</a>       
 A very simple example of creating a custom blade directive...     
 Implementation: https://github.com/olivervoros/laravel-demo-project/compare/custom-blade-directive
 
-17, <a name="siro">Signed Routes</a>
+17, <a name="siro">Signed Routes</a>       
 A straightforward example of using signed routes. This is mostly used for account activations, or when you want to protect a route from users who do not know the URL signature.       
 Implementation: https://github.com/olivervoros/laravel-demo-project/compare/signed-routes
 
-18, <a name="auth">Authorization</a>   
+18, <a name="auth">Authorization</a>         
 Example code which includes various implementations of Laravel Authorization, such as Gates and Policies.      
 Implementation: https://github.com/olivervoros/laravel-demo-project/compare/authorization
 
-19, <a name="bc">Broadcasting</a>
+19, <a name="bc">Broadcasting</a>       
 An example implementation of using Laravel's broadcasting feature.       
 Implementation: https://github.com/olivervoros/laravel-demo-project/compare/broadcasting
 
-20, <a name="test">Testing</a>            
+20, <a name="test">Testing</a>                 
 Few examples covering different software testing methods:      
 - Unit Testing with Prophecy: https://github.com/olivervoros/laravel-demo-project/compare/testing-with-prophecy
 - Unit Testing and Integration Testing: https://github.com/olivervoros/laravel-demo-project/compare/testing
 - Browser Testing with Dusk: https://github.com/olivervoros/laravel-demo-project/compare/browser-testing-with-dusk
 
-21, <a name="vue">Mini Project: Laravel API with VueJS</a>       
+21, <a name="vue">Mini Project: Laravel API with VueJS</a>            
 Laravel API with Passport Auth and HTTP testing on the backend and VueJS + Vuex on the frontend
 Implementation: https://github.com/olivervoros/laravel-demo-project/compare/laravel-api-with-vuejs
