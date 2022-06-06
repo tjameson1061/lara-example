@@ -111,3 +111,4 @@ Few examples covering different software testing methods:
 
 21, <a name="vue"><b>Mini Project: Laravel API with VueJS</b></a>            
 Laravel API with Passport Auth and HTTP testing on the backend and VueJS + Vuex on the frontend
+# lara-example
